@@ -1,5 +1,5 @@
-### Lecture 4 
-###### June 22, 2017
+### Lecture 5 
+###### June 27, 2017
 
 ## Objectives
 - Start (?) Chapter 3.
