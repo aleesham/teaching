@@ -1,5 +1,5 @@
-### Lecture 5 
-###### June 27, 2017
+### Lecture 6 
+###### June 29, 2017
 
 ## Objectives
 - Go over exam questions?
@@ -9,7 +9,7 @@
 
 ## Reminders and Announcements
 - Read Chapters 3 and 4 in Krantz
-- Homework 3 and 4 are posted. 
+- Homework 3 and 4 are posted and have been updated.
 
 #
 # Chapter 3: Set Theory
@@ -145,21 +145,27 @@ __Definition:__ If S_1,S_2,\dots are sets, the we define the union and countable
 - Intersection: \cap_{i=1}^\infty S_j = {x : \forall j, x\in S_j}
 
 __Examples:__ (3.5.1,2)
-- (3.5.1)
-- (3.5.2)
+- (3.5.1) Let Q be the rational numbers and let S_j={x\in Q : 0 < x < 1+1/j}
+for j=1,2,3\dots. What does \cup S_j look like? \cap S_j?
+    - Note that S_1 = (0,2)\cap Q, S_2 = (0, 3/2)\cap Q, S_3=(0,4/3)\cap Q,.... That is, these sets are nested. so S_1 contains S_j for all j. Therefore, their union must be S_1.
+    - Look in the __book/notes__ for this. Prove \cap S_j = (0,1].
+- (3.5.2) Note it is possible for nested, nonempty sets. Consider instead S_j={x\in Q : 0 < x <1/j}}. Similar to the last example... \cup S_j = S_1 and
+\cap S_j = {x\in Q : 0< x<=0}=\emptyset.
 
 __Definition/Note:__ An __*index set*__ is a set in which our indices range over. In the examples so far, we let the index j range over {1,2,3,\dots}. It is often useful to use a "larger" index set, such as the real numbers, or some unspecified index set. Usually, in these cases, we will call our index set A and index by alpha.
 
-__Example:__ (3.5.3)
+__Example:__ (3.5.3) __notes__
 
 __Proposition 3.5.4:__ Fix a universal set X. Let A be an index set and for each alpha in A, let S\alpha be a subset of X. Then
 - ^c(\cap_{\alpha\inA}S_\alpha) = \cup_{\alpha\in A} ^cS\alpha
 - ^c(\cup_{\alpha\inA}S_\alpha) = \cap_{\alpha\in A} ^cS\alpha
 
-__Proof:__ A is very similar to Prop 3.2.19 (a) so lets do (b).
+__Proof:__ (a) is very similar to Prop 3.2.19 (b), which we have not shown (though it is in the book.) So lets prove this one.
 
-Note that (a) is Exercise 4a and the answer can be found in the back of the book. 
+(a) __proof in notes__.
 
+
+TALK MORE ABOUT 26.
 
 ### Examples:
-Exercises: 1acfg, 2, 5bf, 3bf, Prop 3.2.19(b), 4c, 18ghijkl, 20, 21ab, 14(HW),26(HW)
+Exercises: 1acf, 2, 5bf, 3bf, 4c, 18ghijkl, 21ab, 26(HW)
